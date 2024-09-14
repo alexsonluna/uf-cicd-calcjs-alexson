@@ -1,0 +1,11 @@
+{
+  "name": "uf-cicd-calcjs-alexson",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jast"
+  },
+  "author": "Alexson Luna",
+  "license": "ISC",
+  "description": ""
+}

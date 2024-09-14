@@ -16,16 +16,16 @@ jobs:
 
     # Passo 2: Instalar o Node.js
       - name: Set up Node.js
-       uses: actions/setup-node@v3
-       with:
+        uses: actions/setup-node@v3 
+        with:
          node-version: '16'      
 
-    # Passo 3: Instalar dependências do projeto
-       - name: Install dependencies
-       run: npm install
+    # Passo 3: Instalar dependências do projeto 
+      - name: Install dependencies
+        run: npm install
 
     # Passo 4: Rodar os testes unitários
-        - name: Run tests
+      - name: Run tests
         run: npm test   
 
   publish:
